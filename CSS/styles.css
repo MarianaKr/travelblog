@@ -1,0 +1,153 @@
+/*Navbar*/
+.navbar-nav>li>a:hover {
+    background-color: #bcbec08c;
+}
+
+.nav-link {
+    width: 8rem;
+}
+
+#logo {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+#navbartitle {
+    font-family: Snell Roundhand, cursive;
+    letter-spacing: 4px;
+}
+
+/* to set carousel size*/
+.carousel-item>img {
+    height: 80vh;
+    width: 100%;
+}
+
+/*carousel margins*/
+.bd-example {
+    margin-bottom: 5vh;
+    margin-top: 0px;
+}
+
+/* body margins*/
+#body {
+    margin-left: none;
+    margin-right: none;
+    margin-top: 5vh;
+    font-family: Arial, sans-serif;
+}
+/*body card borders*/
+.card {
+    border: none;
+}
+
+/* Body left bar. Latest post. Picture size*/
+.latestimg {
+    max-width: 30%;
+}
+
+.latestimg>img {
+    height: 80px;
+}
+
+#latpost {
+    margin-top: 60px;
+}
+/*latest post. margin beetwin posts*/
+.no-gutters>.col,
+.no-gutters>[class*=col-] {
+    margin-top: 20px;
+}
+/*fixeed height for Latest post img*/
+.latesttext {
+    padding: 0.5em;
+}
+
+/*about me*/
+.aboutme {
+    margin-top: 30px;
+    padding: 0 30px 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
+}
+
+#myphoto {
+    max-width: 150px;
+    padding: 2%;
+    margin: 0 auto 20px;
+    transform: translateY(-50px);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.social-aboutme li {
+    display: inline-block;
+    margin-right: 30px;
+}
+/*instagram*/
+.instagram {
+    padding: 1px;
+    
+}
+#instabox{margin-top: 60px;}
+#instabox> h3{margin-bottom: 30px;}
+
+/*=-footer-=*/
+footer {
+    background-attachment: fixed;
+    background-color: #222;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.social-pet li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.social-pet li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    background-color: #3a5a95;
+    color: #fff;
+}
+
+.social-pet li:nth-child(2) a {
+    background-color: #57aced;
+}
+
+.social-pet li:nth-child(3) a {
+    background-color: #dd4f43;
+}
+
+.social-pet li:nth-child(4) a {
+    background-color: #6b27b2;
+}
+
+.social-pet li a:hover {
+    background-color: #0141a2;
+}
+
+.social-pet li a:hover i {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/*=-Copyright-=*/
+.copyright {
+    background-color:rgb(19, 18, 18);;
+    font-size: 14px;
+    height: 40px;
+
+}
+
+
+
+
+

@@ -1,0 +1,55 @@
+body {
+    background-image: url(../Pictures/contactBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-me {
+    background-color: white;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    padding: 5%;
+    padding-top: 0px;
+
+}
+
+#body>h1 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #b2b6bb;
+    border-radius: 0rem;
+}
+
+#send-button {
+    margin-top: 2rem;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+#send-button>button {
+    width: 150px;
+    background-color: #48617f;
+    border-color: #3b4558;
+}
+
+@media screen and (min-height: 1366px) {
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
